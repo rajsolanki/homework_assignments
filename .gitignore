@@ -3,3 +3,4 @@ Gemfile.lock
 Guardfile
 .ruby-gemset
 .ruby-guard
+.ruby-version
