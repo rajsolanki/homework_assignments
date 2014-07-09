@@ -13,10 +13,10 @@ puts 'That means there are:'
 puts "  #{seconds_in_minute * minutes_in_hour
 } seconds in an hour,"
 puts "  #{seconds_in_minute * minutes_in_hour * hours_in_day
-} seconds in a day"
+} seconds in a day,"
 puts "  #{seconds_in_minute * minutes_in_hour * hours_in_day *
   days_in_week} seconds in a week"
-puts "That means when ou turn 20, you've been alive for #{
+puts "That means when you turn 20, you've been alive for #{
 seconds_in_minute * minutes_in_hour * hours_in_day * days_in_week * 52 * 20}
 seconds, and if you make it to 100, you will have lived #{
 seconds_in_minute * minutes_in_hour * hours_in_day * days_in_week * 52 * 100
