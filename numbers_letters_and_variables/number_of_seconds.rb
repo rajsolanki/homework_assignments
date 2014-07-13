@@ -21,3 +21,4 @@ seconds_in_minute * minutes_in_hour * hours_in_day * days_in_week * 52 * 20} sec
 and if you make it to 100, you will have lived #{
 seconds_in_minute * minutes_in_hour * hours_in_day * days_in_week * 52 * 100} seconds. Make them
 count!"
+# changed formatting to mirror homework requirements output
