@@ -8,13 +8,13 @@ tries = 0
 print "I'm thinking of a number from 1-5. Take a guess: "
 # loop that runs if guess does not equal number
 while guess != number
-# makes guess variable user input
-guess = gets.chomp.to_i
-# keeps track of number of tries with each guess
-tries = tries + 1
-# variable plural will be try or tries based on number
-# of guesses
-plural = tries == 1 ? 'try' : 'tries'
+  # makes guess variable user input
+  guess = gets.chomp.to_i
+  # keeps track of number of tries with each guess
+  tries += 1
+  # variable plural will be try or tries based on number
+  # of guesses
+  plural = tries == 1 ? 'try' : 'tries'
   # when guess is too high
   if guess > number
     puts 'Too high. Guess again: '

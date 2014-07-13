@@ -1,3 +1,6 @@
 AllCops:
   Exclude:
     - class_coding_question/**
+    - methods_and_flow_control/string_practice.rb
+    - methods_and_recursion/practice_methods.rb
+

@@ -2,7 +2,7 @@ number = Kernel.rand(5) + 1
 guess = 10
 tries = 0
 while guess != number
-  tries = tries + 1
+  tries += 1
   # plural = 'tries'
   # plural = 'try' if tries == 1
   # if tries == 1
