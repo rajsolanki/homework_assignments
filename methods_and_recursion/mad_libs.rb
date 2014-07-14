@@ -27,9 +27,9 @@ ing_verb4 = part_of_speech("Give me another verb ending in 'ing'")
 adjective3 = part_of_speech('Give me another adjective')
 number = part_of_speech('Give me a number')
 plural_noun4 = part_of_speech('Give me another plural noun')
-article1 = noun1.start_with?('a', 'e', 'i', 'o', 'u') ? 'an' : 'a'
-article2 = noun2.start_with?('a', 'e', 'i', 'o', 'u') ? 'an' : 'a'
-article3 = noun3.start_with?('a', 'e', 'i', 'o', 'u') ? 'an' : 'a'
+# article1 = noun1.start_with?('a', 'e', 'i', 'o', 'u') ? 'an' : 'a'
+# article2 = noun2.start_with?('a', 'e', 'i', 'o', 'u') ? 'an' : 'a'
+# article3 = noun3.start_with?('a', 'e', 'i', 'o', 'u') ? 'an' : 'a'
 
 puts
 puts "Ok, here's your vacation Mad Lib: "
@@ -39,14 +39,14 @@ puts
 puts <<vacations
   A vacation is when you take a trip to some #{adjective1} place
 with your #{adjective2} family. Usually you go to some place
-that is near #{article1} #{noun1} or up on #{article2} #{noun2}.
+that is near a/an #{noun1} or up on a/an #{noun2}.
 A good vacation place is one where you can ride #{plural_noun1}
 or play #{game} or go hunting for #{plural_noun2}. I like
 to spend my time #{ing_verb1} or #{ing_verb2}.
 When parents go on a vacation, they spend their time eating
 three #{plural_noun3} a day, and fathers play golf, and mothers
 sit around #{ing_verb3}. Last summer, my little brother
-fell in #{article3} #{noun3} and got poison #{plant} all
+fell in a/an #{noun3} and got poison #{plant} all
 over his #{part_of_the_body}. My family is going to go to (the)
 #{place}, and I will practice #{ing_verb4}. Parents
 need vacations more than kids because parents are always very
