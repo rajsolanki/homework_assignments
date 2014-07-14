@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 numbers = * (1..100)
-fizzbuzz = %w(Fizz Buzz FizzBuzz)
+fizzbuzz = %w[Fizz Buzz FizzBuzz]
 
 numbers.map! do |number|
   if number % 15 == 0
