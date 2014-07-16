@@ -10,17 +10,13 @@ class CashRegister
 
   # Returns the purchase price plus the total to two decimals
   def purchase(purchase_price)
-    puts '%.2f' % (@total += purchase_price)
+    puts @total += purchase_price
   end
 
   # Returns total to two decimals unless total = 0 then returns
   # "0"
   def total
-    if @total > 0
-      puts '%.2f' % @total
-    else
-      puts '0'
-    end
+    puts @total
   end
 
   # Sets three conditions for payment, if over payment,
