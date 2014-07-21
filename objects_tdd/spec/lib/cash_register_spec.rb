@@ -14,6 +14,6 @@ describe CashRegister do
   # end
   it 'should deduct amount paid from total' do
     @total = 10
-    expect(@total - subject.pay(10)).to eq(0)
+    expect(@total + subject.pay(10)).to eq(0)
   end
 end

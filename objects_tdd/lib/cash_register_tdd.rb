@@ -12,9 +12,7 @@ class CashRegister
     @total += purchase_amount
   end
 
-  def total
-    @total
-  end
+  attr_reader :total
 
   def pay(payment)
     @total -= payment
@@ -27,3 +25,4 @@ puts register.purchase(5.00)
 puts register.purchase(1.00)
 puts register.pay(10.00)
 puts register.total
+puts register.purchase(4.00)
