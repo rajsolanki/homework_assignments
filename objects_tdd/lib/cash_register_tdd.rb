@@ -26,3 +26,4 @@ puts register.purchase(1.00)
 puts register.pay(10.00)
 puts register.total
 puts register.purchase(4.00)
+puts register.pay(4.00)

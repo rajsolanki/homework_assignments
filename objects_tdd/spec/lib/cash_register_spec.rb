@@ -8,10 +8,9 @@ describe CashRegister do
   it 'should add purchase amount to total' do
     expect(subject.purchase(3.31)).to eq(3.31 + 0.00)
   end
-  # it 'should keep a total of all purchases' do
-  #   @total = 10
-  #   expect(subject.total).to eq(10)
-  # end
+  it 'should keep a total of all purchases' do
+    @total
+  end
   it 'should deduct amount paid from total' do
     @total = 10
     expect(@total + subject.pay(10)).to eq(0)
