@@ -8,7 +8,7 @@ count = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # the end first, I was able to add ... after 10.
 puts count.push(' ').join('...')
 count.pop
-puts 'T-' + count.reverse.join(', ') + '... BLASTOFF!'
+puts 'T-' + count.reverse.join(', ') + '...  BLASTOFF!'
 puts 'The last element is ' + count[9].to_s
 puts 'The first element is ' + count[0].to_s
 puts "The third element is #{count[2]}"

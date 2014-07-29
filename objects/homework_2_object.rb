@@ -21,8 +21,8 @@ class Book
   def price(retail, wholesale)
     @retail = retail
     @wholesale = wholesale
-    puts '$%.2f retail price' % retail
-    puts '$%.2f wholesale price' % wholesale
+    puts "$#{retail.round(2)} retail price"
+    puts "$#{wholesale.round(2)} wholesale price"
   end
 end
 
@@ -30,4 +30,4 @@ book = Book.new
 book.title('The Adventures of Tom Swayer')
 book.author('Mark Twain')
 book.pages(352)
-book.price(3, 2)
+book.price(3.52, 2.31)
