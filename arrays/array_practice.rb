@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-count = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+count = [1,2,3,4,5,6,7,8,9,10]
 
 # just .join('...') would string the numbers together
 # with ... between them, but it wouldn't add ... after 10
@@ -19,10 +19,10 @@ count.delete(5)
 count.delete(6)
 count.delete(7)
 print 'If we delete 5, 6 and 7 from the array, '
-puts "we're left with #{count}"
+puts "we're left with [#{count.join(',')}]"
 print 'If we add 5 at the beginning of the array, '
-puts "we're left with #{count.unshift(5)}"
-puts "If we add 6 at the end of the array, we're left with #{count.push(6)}"
+puts "we're left with [#{count.unshift(5).join(',')}]"
+puts "If we add 6 at the end of the array, we're left with [#{count.push(6).join(',')}]"
 puts "Only the elements #{count.select { |x| x > 8 }} are > #{count[5]}"
 count.clear
 print 'If we remove all the elements, '
