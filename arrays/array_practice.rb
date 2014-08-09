@@ -23,7 +23,7 @@ puts "we're left with [#{count.join(',')}]"
 print 'If we add 5 at the beginning of the array, '
 puts "we're left with [#{count.unshift(5).join(',')}]"
 puts "If we add 6 at the end of the array, we're left with [#{count.push(6).join(',')}]"
-puts "Only the elements #{count.select { |x| x > 8 }} are > #{count[5]}"
+puts "Only the elements #{count.select { |x| x > 8 }} are > #{count[5]}."
 count.clear
 print 'If we remove all the elements, '
 puts "then the length of the array is #{count.length}"
